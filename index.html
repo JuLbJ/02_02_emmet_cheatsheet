@@ -44,10 +44,10 @@
 					</div><!--/ navbar-collapse-->
 			</div><!--/ div container-->
 		</nav>
-	<!-- _____________________________________________/n a v i g a t i o n_____-->
+	<!-- ____________________________________________/ n a v i g a t i o n_____-->
 	<!-- ____________________________________________________________alert_____-->
 	<div class="container_alert">
-		<div class="alert alert-danger" role="alert"><strong>Be carefull: emmet is for the experienced dev .... so far.</strong></div>
+		<div class="alert alert-success" role="alert"><strong>Be carefull: EMMET is for the experienced dev .... so far.</strong></div>
 	</div>
 <!-- ____________________________________________________________/ alert_____-->
 <!-- ______________________________________________thumbnail_S Y N T A X_____-->
@@ -89,7 +89,7 @@
 		        			<p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 			      </div>
 			    </div>
-			  </div><!--____/ thumbnail_1_____-->
+			  </div><!--____/ thumbnail_SYNTAX_____-->
 <!-- ____________________________________________/ thumbnail_S Y N T A X_____-->
 
 <!-- _________________________________________________ thumbnail_H T M L ____-->
@@ -97,11 +97,40 @@
 				<div class="thumbnail HTML">
 						<div class="caption">
 							<h3><strong>H T M L</strong></h3>
-							<p>...</p>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+							<p><strong>* All unknown abbreviations will be transformed to tag, e.g. foo → &lt;foo&gt;&lt;/foo&gt;</strong></p>
+
+							<p>
+
+								<ul><strong> 	a </strong></ul>
+								<ul>
+									&lt;a&gt;href="http://<strong> | </strong>"><strong> | </strong>&lt;/a&gt;
+								</ul>
+			aaa				</p>
+
+								<p>
+									<ul><strong> 	col </strong></ul>
+									<ul>
+										&lt;col /&gt;
+									</ul>
+				bbb			</p>
+
+								<p>
+									<ul><strong> img </strong></ul>
+									<ul>
+										&lt;img&gt; src"<strong> | </strong>"><strong> | </strong>/&gt;
+									</ul>
+			ccc				</p>
+
+									<p>
+										<ul><strong> picture </strong></ul>
+										<ul>
+											&lt;picture&gt;<strong> | </strong>"&lt;/picture&gt;
+										</ul>
+			ddd				</p>
+							<p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 					</div>
 				</div>
-			</div><!--____/ thumbnail_2_____-->
+			</div><!--____/ thumbnail_HTML_____-->
 <!-- ________________________________________________/ thumbnail_H T M L_____-->
 
 <!-- ___________________________________________________ thumbnail_C S S_____-->
@@ -110,12 +139,19 @@
 
 						<div class="caption">
 							<h3><strong>C S S</strong></h3>
-							<p>...</p>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+							<p><strong>* CSS module uses fuzzy search to find unknown abbreviations, e.g. ov:h == ov-h == ovh == oh.
+							</strong></p>
+								<p><strong>
+									* If abbreviation wasn’t found, it is transformed into property name: foo-bar → foo-bar: |;</strong>
+								</p>
+							<p><strong>
+									* You can prefix abbreviations with hyphen to produce vendor-prefixed properties: -foo</strong>
+								</p>
+							<p><a href="#" class="btn btn-warning" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
 					</div>
 				</div>
 			</div>
-		</div><!--____/ thumbnail_3____-->
+		</div><!--____/ thumbnail_CSS____-->
 <!-- __________________________________________________/ thumbnail_C S S ____-->
 	</div><!--____/ row____-->
 </div><!--____/ container____-->
