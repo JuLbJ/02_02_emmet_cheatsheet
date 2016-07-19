@@ -1,0 +1,33 @@
+*{
+	border: 1px solid #000;
+}
+
+/*___________________________________________________________nav______________*/
+.container_nav{
+	fixed: bottom;
+}
+/*_________________________________________________________/ nav______________*/
+
+/*________________________________________________________ alert______________*/
+.container_alert{
+	margin-top: 50px;
+	text-align: center;
+	}
+/*_________________________________________________________/ alert____________*/
+
+.SYNTAX{
+	background-color: #FFC70E;
+}
+.HTML{
+	background-color: #F99E1A;
+}
+.CSS{
+	background-color: #C08E19;
+}
+span.tab-space {
+	float: right;
+}
+.jumbotron{
+	padding-left: 20px;
+	padding-right: 20px;
+}
